@@ -1,0 +1,151 @@
+.sitecontent {
+  /* border-right: 5px solid rgb(255, 255, 255);
+  border-left: 5px solid rgb(255, 255, 255); */
+  align-content: flex-start;
+  box-shadow: 0px 5px 10px black;
+  background-color: rgb(51, 44, 44);
+  /* min-width: 300px; */
+  width: 75%;
+  margin: auto;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Hind", sans-serif;
+  background-color: rgb(71, 71, 71);
+}
+
+/* Navbar */
+.logo {
+  font-size: 20px;
+  list-style: none;
+  background-color: rgb(224, 224, 206);
+  color: rgb(71, 71, 71);
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  overflow: hidden;
+}
+
+.link {
+  background-color: rgb(71, 71, 71);
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  color: aliceblue;
+  margin: 0px;
+  border-right: 1px solid grey;
+}
+
+.menu {
+  font-size: 12px;
+  list-style-type: none;
+  size: 10%;
+  margin: 00px;
+  display: flex;
+  padding: 0%;
+}
+
+nav {
+  box-shadow: 0 5px 5px rgb(37, 37, 37);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+  margin: 0px;
+  font-size: 100%;
+}
+
+.bar {
+  background-color: rgb(71, 71, 71);
+}
+.link:hover {
+  background-color: rgb(173, 52, 62);
+}
+
+/* nav end */
+
+.desc {
+  color: rgb(224, 224, 206);
+  /* margin-left: 50px;*/
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(224, 224, 206);
+  /* margin-left: 50px;
+  margin-top: 40px; */
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box {
+  background-color: rgb(242, 175, 41);
+  border-right: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .sitecontent {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .sitecontent {
+    width: 100%;
+  }
+  .box {
+    /* margin-top: 10px; */
+    width: auto;
+  }
+}
+
+/* Board */
+
+.board {
+  background-color: rgb(116, 116, 116);
+  padding: 1%;
+  margin: 5%;
+  size: 10%;
+}
+
+.board img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+/* .board > p {
+} */
+
+/* board end */
