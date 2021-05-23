@@ -113,14 +113,6 @@ a {
   justify-content: center;
 }
 
-.box2 > h1 {
-  color: rgb(224, 224, 206);
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
-  padding-top: 9%;
-}
-
 @media (max-width: 600px) {
   .box2 > h1 {
     padding-top: 0%;
@@ -143,6 +135,10 @@ h1 {
   align-items: stretch;
 }
 
+.boxes2 {
+  align-items: center;
+}
+
 .box {
   background-color: rgb(242, 175, 41);
   border-right: 1px solid grey;
@@ -155,6 +151,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   width: 200%;
+  align-items: center;
 }
 
 .box3 {
