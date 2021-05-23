@@ -26,7 +26,15 @@ body {
     width: 90%;
   }
 }
-
+.box {
+  /* background-color: rgb(242, 175, 41); */
+  /* border-right: 1px solid grey; */
+  background-color: rgb(116, 116, 116);
+  margin: 2%;
+  margin-top: 0%;
+  padding: 10px;
+  width: 100%;
+}
 @media (max-width: 600px) {
   .boxes {
     flex-direction: column;
@@ -125,6 +133,7 @@ h1 {
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 .boxes,
@@ -135,17 +144,17 @@ h1 {
   align-items: stretch;
 }
 
-.boxes2 {
-  align-items: center;
+.boxes {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-.box {
-  background-color: rgb(242, 175, 41);
-  border-right: 1px solid grey;
-  margin: 10px;
-  padding: 10px;
-  width: 100%;
+.boxes2 {
+  align-items: center;
+  margin-bottom: -3%;
 }
+
+/* box 1 orgin */
 
 .box2 {
   margin: 10px;
@@ -159,7 +168,7 @@ h1 {
   margin: 5%;
   margin-right: 0%;
   padding: 10px;
-  width: 100%;
+  width: 97.8%;
 }
 
 @media (max-width: 600px) {
@@ -180,6 +189,12 @@ h1 {
 /* headline + content list end */
 
 /* Board */
+
+h2 {
+  color: rgb(224, 224, 206);
+  margin-bottom: 1%;
+  margin-left: 4.8%;
+}
 
 .board {
   background-color: rgb(116, 116, 116);
