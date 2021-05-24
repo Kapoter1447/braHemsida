@@ -26,18 +26,10 @@ body {
     width: 90%;
   }
 }
-.box {
-  /* background-color: rgb(242, 175, 41); */
-  /* border-right: 1px solid grey; */
-  background-color: rgb(116, 116, 116);
-  margin: 2%;
-  margin-top: 0%;
-  padding: 10px;
-  width: 100%;
-}
+
 @media (max-width: 600px) {
   .boxes {
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
@@ -111,7 +103,7 @@ a {
 
 /* nav end */
 
-/* headline + content list */
+/* different box contatiners and boxes + site content nav */
 
 .desc {
   color: rgb(224, 224, 206);
@@ -119,6 +111,7 @@ a {
   margin-top: 0%;
   display: flex;
   justify-content: center;
+  text-shadow: -2px 2px black;
 }
 
 @media (max-width: 600px) {
@@ -133,29 +126,38 @@ h1 {
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  text-shadow: -2px 2px black;
+  /* align-content: center; */
+}
+@media (max-width: 600px) {
+  .box3 {
+    margin-right: 5%;
+  }
 }
 
 .boxes,
 .boxes2 {
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
-  align-items: stretch;
 }
 
 .boxes {
   padding-left: 3%;
   padding-right: 3%;
+  margin-bottom: 4%;
 }
 
 .boxes2 {
   align-items: center;
-  /* margin-bottom: -3%; */
 }
 
-/* box 1 orgin */
-
+.box {
+  background-color: rgb(116, 116, 116);
+  margin: 2%;
+  margin-top: 0%;
+  padding: 10px;
+  width: 100%;
+  /* align-items: stretch; */
+}
 .box2 {
   margin: 10px;
   padding: 10px;
@@ -172,12 +174,6 @@ h1 {
   width: 80.5%;
 }
 
-@media (max-width: 600px) {
-  .box3 {
-    margin-right: 5%;
-  }
-}
-
 .box3 li {
   text-decoration: none;
   list-style: square;
@@ -189,13 +185,27 @@ h1 {
 
 /* headline + content list end */
 
-/* Board */
+/* Board and other items*/
+
+.cbox {
+  text-align: center;
+  background-color: rgb(116, 116, 116);
+  margin: 2%;
+  margin-top: 0%;
+  padding: 10px;
+  width: 100%;
+}
 
 h2 {
   color: rgb(224, 224, 206);
   margin-bottom: 1%;
   margin-left: 4.8%;
   margin-top: 0%;
+  text-shadow: -2px 2px black;
+}
+
+h3 {
+  margin-top: 2%;
 }
 
 .board {
@@ -212,7 +222,45 @@ h2 {
   width: 100%;
 }
 
-/* .board > p {
-} */
+.socialmedia {
+  /* width: 100%; */
+  /* border-radius: 100%; */
+  width: 200px;
+  height: 200px;
+  display: ruby;
+  margin-left: auto;
+  margin-right: auto;
+  clip-path: polygon(120% 0%, 85% 100%, 15% 100%, -20% 00%);
+}
+
+.contactboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: rgb(173, 52, 62);
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.contactboard h2 {
+  text-align: center;
+}
+
+.contactboard > div {
+  text-align: center;
+  size: 100%;
+}
+
+.contactboard p {
+  font-size: 50%;
+}
+
+.contactboard img {
+  max-width: 120px;
+}
 
 /* board end */
