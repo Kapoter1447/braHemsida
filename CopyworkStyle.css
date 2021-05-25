@@ -85,21 +85,58 @@ body {
 
 nav {
   box-shadow: 0 5px 5px rgb(37, 37, 37);
+  /* Delete if not using flexboxes: */
+  background-color: rgb(71, 71, 71);
+  display: flex;
+  align-items: stretch;
+}
+
+.navbox {
+  background-color: rgb(71, 71, 71);
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1.5%;
+  padding-bottom: %;
+  color: aliceblue;
+  margin: 0px;
+  border-right: 1px solid gray;
+}
+.navbox:hover {
+  background-color: rgb(173, 52, 62);
+}
+
+.navboxL {
+  background-color: rgb(224, 224, 206);
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+  margin: 0px;
+  border-right: 1px solid grey;
+  /* margin-right: auto; */
 }
 
 a {
   text-decoration: none;
   color: rgb(201, 201, 201);
-  margin: 0px;
   font-size: 100%;
 }
 
-.bar {
+/* Bara nödvändig med iphone x typ: */
+@media (max-width: 600px) {
+  a {
+    font-size: 82%;
+  }
+}
+
+/* .bar {
   background-color: rgb(71, 71, 71);
 }
 .link:hover {
   background-color: rgb(173, 52, 62);
-}
+} */
 
 /* nav end */
 
